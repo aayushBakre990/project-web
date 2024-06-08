@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.button-row {
+    display: flex;
+}
+
+#calculator button {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    justify-content: center;
+    padding: 0;
+    width: fit-content;
+    height: calc(fit-content + 69px);
+    margin: 100px auto;
+}
+
+#calculator p {
+    margin-left: 13px;
+    text-align: left;
+}
+
+#number {
+    font-size: 28px;
+}
+
+#expression {
+    font-size: 16px;
+    color: grey;
+}

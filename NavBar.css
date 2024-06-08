@@ -1,0 +1,19 @@
+.nav-list {
+    height: 15vh;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    box-shadow: 0px 0px 10px 1px black;
+  }
+  
+  .nav-list li:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-list li {
+    transition: all 0.3s ease;
+  }
